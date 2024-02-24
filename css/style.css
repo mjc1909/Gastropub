@@ -1,0 +1,167 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+
+
+.sec-1{
+    background-image: url(/img/mainsite-waiter.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 900px;
+    background-position: center;
+    border-bottom: 2px solid rgb(70, 70, 70);
+    
+}
+
+.overlay {
+    
+    
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+   
+    
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    
+  }
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+
+
+.logo{
+    width: 80px;
+    height: 60px;
+    background-color: white;
+    background: transparent;
+    
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    margin-top: 25px;
+    
+  }
+
+  li{
+    display: inline;
+    
+    
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    font-family: merriweather;
+    font-weight: bold;
+    margin-left: 20px;
+    
+    
+  }
+
+  .text-1{
+    background: transparent;
+    margin: 200px;
+    text-align:justify;
+    max-width: 450px;
+    
+  }
+
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: merriweather;
+    font-weight: bold;
+}
+
+.p-1{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 30px;
+}
+
+.om{
+    background-color: #F1B356;
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 27px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.bestil{
+    background-color: #F1B356;
+    color: black;
+    font-family:merriweather;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 27px;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Sektion 2 */
+
+.sec-2{
+    background-image: url(/img/mainSite-food.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 900px;
+    
+    
+}
+
+.text-2{
+    position: absolute;
+    background: transparent;
+    margin: 200px;
+    text-align:justify;
+    max-width: 450px;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  a:hover{
+    
+    color: rgb(202, 198, 198);
+  }
+
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: #d19b4a;
+}
