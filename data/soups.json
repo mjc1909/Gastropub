@@ -1,0 +1,54 @@
+[
+
+    {
+        "name": "Kyllinge Nudel Suppe",
+        "ingredients": "Gulerødder, selleri, hvidløg, løg, Kylling, saffron, ingefær.",
+        "price":"kr. 109,-"
+
+        },
+
+        {
+            "name": "Russisk Borscht",
+            "ingredients": "Rødbede, tomater, løg, kalvefond, cremefraiche.",
+            "price":"kr. 98,-"
+            },
+
+            {
+                "name": "Minestrone",
+                "ingredients": "Bønner,løg, selleri,gulerødder,tomat,oregano,timian,kalvefond.",
+                "price":"kr. 98,-"
+                },
+
+                {
+                    "name": "Bouillabaisse",
+                    "ingredients": "fisk og skaldyr, løg, hvidløg, persille, timian, fennikel, laurbærblade, appelsinskal.",
+                    "price":"kr. 126,-"
+                    }
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Vilde ris salat",
+        "ingredients": "Vilde ris, citron, romainesalat, haricots verts, løg, oliven, tomater.",
+        "price":"kr. 78,-"
+        },
+
+        {
+            "name": "Grillet squash og couscous salat",
+            "ingredients": "butternut squash,couscous,løg,babyspinat,tørrede tranebær, pekannødder.",
+            "price":"kr. 78,-"
+            },
+
+            {
+                "name": "Asparges & Halloumi Salat",
+                "ingredients": "asparges, halloumi, fennikel, rødløg, appelsin.",
+                "price":"kr. 78,-"
+                },
+
+                {
+                    "name": "Fennikel, krabbe og appelsinsalat",
+                    "ingredients": "Fennikel, appelsin, mint, avocado, grøn chili, krappekød, oliven.",
+                    "price":"kr. 112,-"
+                    }
+
+]

@@ -35,6 +35,8 @@ ul li:hover ul{
   
   }
 
+  
+
 .overlay {
     
     
@@ -237,7 +239,119 @@ h2{
 }
 
 
+/*MENU*/
+.sec-menu{
+  background-image: url(/img/menuHeader.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-position: center;
+    
+}
 
+h3{
+  color: white;
+  font-size: 48px;
+  font-family: merriweather;
+  font-weight: bold;
+  
+  
+}
+
+.container,.container2,.container3{
+  background-color: #2E2925;
+  padding: 20px;
+  border-top: 2px solid #4d4d4d;
+}
+
+.container2,.container3{
+  border: none;
+}
+
+.output,.output2,.output3{
+  
+  width: 100%;
+  height: 450px;
+  background-color: #2E2925;
+  
+  
+  }
+
+  .soupname{
+  color: white;
+  font-size: 20px;
+  background-color: #2E2925;
+  font-family: merriweather;
+  font-weight: bold;
+  margin-top: 20px;
+  
+  
+  }
+
+  .soupingredients{
+  color: #CCC4BC;
+  background-color: #2E2925;
+  font-size: 16px;
+  font-family: 'crimson pro';
+  font-weight: bold roman;
+  margin-top: 10px;
+  
+  }
+
+.price{
+  color: #CCC4BC;
+font-family: merriweather;
+font-weight: bold;
+font-size: 18px;
+margin-top: 5px;
+}
+
+.menuknap{
+  background-color: #F1B356;
+  color: black;
+  border: none;
+  height: 20px;
+  width: 100px;
+  font-weight: bold;
+  font-family: 'crimson pro';
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 40px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #F1B356; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #ebb158; /* Add a dark-grey background on hover */
+}
+
+.arrow,.arrow:hover{
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .nav-ul{
+    display: none;
+  }
+
+  h2{
+    font-size: 48px;
+  }
+}
 
 
 

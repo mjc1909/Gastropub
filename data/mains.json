@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Kylling Milanese med spaghetti",
+        "ingredients": "Frisk pasta, kyllingebryst, cherrytomater, basilikum, hvidløg, parmesan.",
+        "price":"kr. 156,-"
+        },
+
+        {
+            "name": "Lam og kikærter i karry",
+            "ingredients": "Lammebov, gurkemeje, skalotteløg, kikærter , tomater, hønsebouillon, koriander.",
+            "price":"kr. 195,-"
+            },
+
+            {
+                "name": "Spaghetti carbonara",
+                "ingredients": "linguine, bacon, parmesan, piskefløde.",
+                "price":"kr. 145,-"
+                },
+
+                {
+                    "name": "Peruviansk laks med quinoa",
+                    "ingredients": "Avocado, laksefilet, Peruvian Chili, rød quinoa, cherrytomater, forårsløg, koriander.",
+                    "price":"kr. 210,-"
+                    }
+
+]
