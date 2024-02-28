@@ -7,10 +7,7 @@ const app = {};
 app.init = () => {
     const output = document.querySelector(".output");
     
-    if (!output) {
-        console.error("Output container not found.");
-        return;
-    }
+    
 
     if (!Array.isArray(soupData)) {
         console.error("Invalid data format: soups.json should contain an array.");

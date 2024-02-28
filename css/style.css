@@ -238,6 +238,31 @@ h2{
   padding: 10px;
 }
 
+/*Vores Team*/
+
+.sec-team{
+  background-image: url(/img/StaffHeaderFood.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-position: center;
+    
+}
+
+.bob{
+display: flex;
+background-color: #2E2925;
+height: 400px;
+justify-content: space-between;
+}
+
+.bob-img{
+height: 200px;
+width: 200px;
+}
+
 
 /*MENU*/
 .sec-menu{
@@ -342,26 +367,16 @@ margin-top: 5px;
   color: black;
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .nav-ul{
-    display: none;
-  }
-
-  h2{
-    font-size: 48px;
-  }
-}
 
 /*FOOTER*/
 
 footer{
-  height: 400px;
+  height: 200px;
   background-color: #211E1B;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  border-top: 2px solid rgb(70, 70, 70);
   
 }
 
@@ -390,3 +405,34 @@ svg{
   margin: 10px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .nav-ul{
+    display: none;
+  }
+
+  .sec-1{
+    
+    
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  .text-1{
+    
+  }
+
+  h2{
+    font-size: 48px;
+  }
+
+  footer{
+    max-width: 768px;
+    height: 800px;
+    flex-direction: column;
+  }
+
+
+}
