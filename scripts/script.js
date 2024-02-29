@@ -1,7 +1,8 @@
 import soupData from "../data/soups.json" assert { type: 'json' };
 import saladData from "../data/salads.json" assert { type: 'json' };
 import mainData from "../data/mains.json" assert { type: 'json' };
-import {soupTmpl,saladTmpl,mainTmpl} from "./templates.js"
+import teamData from "../data/teams.json" assert {type: 'json'};
+import {soupTmpl,saladTmpl,mainTmpl,teamTmpl} from "./templates.js"
 
 const app = {};
 app.init = () => {
@@ -73,7 +74,12 @@ mainData.forEach(main => {
     } else {
         console.error("Failed to generate HTML for main:", main);
     }
-});}
+});
+
+
+
+
+}
 app.init();
     
 // Get the button:
@@ -97,9 +103,27 @@ function topFunction() {
 }        
         
         
+        //Team//
         
-        
-        
+ app.init = () => {
+    const output4 = document.querySelector(".output4");
+    
+    
+
+    if (!Array.isArray(teamData)) {
+        console.error("Invalid data format: teams.json should contain an array.");
+        return;
+    }
+
+    teamData.forEach(team => {
+        const teamHTML = teamTmpl(team);
+        if (teamHTML) {
+            output4.insertAdjacentHTML('beforeend', teamHTML);
+        } else {
+            console.error("Failed to generate HTML for team:", team);
+        }
+    });
+};
        
 
 

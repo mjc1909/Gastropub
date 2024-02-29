@@ -1,0 +1,37 @@
+[
+    {
+        "img":"../img/DeputyChef.jpg",
+        "name": "John Smith",
+        "job": "Deputy Chef",
+        "background":"John er uddannet hos Restaurant Vesterhavet i 2001. John har speciale i retter med chili og det sydamerikanske køkken."
+        },
+
+        {
+            "img":"../img/PastryAssistant.jpg",
+            "name": "Gert Hansen",
+            "job": "Pastry Chef",
+            "background":"Gert er uddannet Kok, og senere konditor. Gert har specialiseret sig i dessertens univers, med en dyb kærlighed til havtorn."
+            },
+
+            {
+                "img":"../img/Assistant.jpg",
+                "name": "Søren Aalstrup",
+                "job": "Assistent",
+                "background":"Søren uddanner sig til kandidat i filosofi, og supplerer sine studier med at kræse for vores kunder."
+                },
+
+                {
+                    "img":"../img/HeadWaiter.jpg",
+                    "name": "Pernille Hank",
+                    "job": "Over Tjener",
+                    "background":"Pernille er uddannet tjener fra Gamle Gislev Kro i 2008, Pernille har rejst verden rundt og studeret vin. Nu bruger hun sin viden til glæde for din gane."
+                    }
+]
+
+
+
+
+
+
+
+

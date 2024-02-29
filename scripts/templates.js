@@ -54,3 +54,24 @@ export const saladTmpl = (salad) => {
             </div>
         `;
         };
+
+
+        export const teamTmpl = (team) => {
+            if (!team || typeof team !== 'object') {
+                console.error("Invalid team object:", team);
+                return null;
+            }
+            if (!team.img || !team.name) {
+                console.error("Missing image or name for team:", team);
+                return null;
+            }
+            
+            return `
+                <div>
+                    <img class="team-img" src="${team.img}">
+                    <p class="team-name">${team.name}</p>
+                    <p class="job">${team.job}</p>
+                    <p class="background">${team.background}</p>
+                </div>
+            `;
+            };
