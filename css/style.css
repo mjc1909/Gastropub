@@ -12,9 +12,10 @@ margin: 0;
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 900px;
+    height: 1300px;
     background-position: center;
     border-bottom: 2px solid rgb(70, 70, 70);
+    overflow: hidden;
     
 }
 
@@ -39,7 +40,7 @@ ul li:hover ul{
 
 .overlay {
     
-    
+    overflow: hidden;
     width: 100%;
     height: 100%; 
    
@@ -152,18 +153,16 @@ h1{
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 900px;
+    height: 1300px;
     border-bottom: 2px solid rgb(70, 70, 70);
+    text-align: center;
     
 }
 
 .text-2{
-    position: absolute;
     background: transparent;
     margin: 200px;
     text-align:justify;
-    max-width: 450px;
-    
   }
 
 
@@ -174,7 +173,7 @@ h1{
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 900px;
+    height: 1300px;
 }
 
 
@@ -213,14 +212,16 @@ h2{
   font-family: merriweather;
   font-weight: bold;
   color: white;
-  margin: 80px;
+
+  margin: 20px;
 }
 
 .about{
   width: 100%;
-  height: 650px;
+  
   background-color: #2E2925;
   border-top: 2px solid rgb(70, 70, 70);
+  text-align: center;
   
 }
 
@@ -237,9 +238,7 @@ h2{
   padding: 10px;
 }
 
-.foot-about{
-  height: 700px;
-}
+
 
 /*Vores Team*/
 
@@ -248,7 +247,6 @@ h2{
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 400px;
     text-align: center;
     background-position: center;
     
@@ -287,19 +285,46 @@ h5{
 
 .container4{
   background-color: #2E2925;
-  height: 400px;
+  padding: 20px;
   border-top: 2px solid #4d4d4d;
   display: flex;
-  flex-direction: row;
+  color: white;
+  justify-content: center;
+  text-align: center;
 }
 
-.output4{
-
+.team-member{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  text-align: center;
 }
+
+.team-name{
+  font-family: merriweather;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.team-job{
+  font-family: 'crimson pro';
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
 
 .team-img{
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.team-background{
+  font-family: 'crimson pro';
+  font-size: 14px;
+  max-width: 200px;
 }
 
 
@@ -309,7 +334,6 @@ h5{
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 400px;
     text-align: center;
     background-position: center;
     
@@ -450,28 +474,62 @@ svg{
     display: none;
   }
 
-  .sec-1{
-    
-    
-  }
 
   h1{
     font-size: 30px;
   }
 
-  .text-1{
-    
-  }
+
 
   h2{
     font-size: 48px;
   }
 
-  footer{
-    max-width: 768px;
-    height: 800px;
-    flex-direction: column;
+  
+
+
+}
+
+/* Responsive Footer */
+footer {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Responsive Images */
+img, .team-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Media Queries */
+@media (min-width: 768px) {
+  .nav-ul {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sec-1,.sec-2,.sec-3 {
+    height: auto;
   }
 
+  h1 {
+    font-size: 24px;
+  }
 
+  .text-1,.text-2,.text-3 {
+    margin: 10%;
+    text-align: center;
+  }
+
+  .team-member {
+    flex-direction: column;
+    text-align: center;
+  }
 }
